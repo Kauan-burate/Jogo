@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restauração do Museu</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🏛️ Restauração do Museu</h1>
+        <p>Encontre os pares e restaure a obra!</p>
+    </header>
+
+    <section class="game-area">
+
+        <div class="memory-section">
+            <h2>Memória</h2>
+
+            <div id="memory-board"></div>
+
+            <div class="stats">
+                <span>Pares: <strong id="pairs">0</strong></span>
+            </div>
+        </div>
+
+        <div class="puzzle-section">
+            <h2 id="obraRestaurada">Obra Restaurada</h2>
+
+            <div id="puzzle-board">
+                <div class="slot" data-slot="0"></div>
+                <div class="slot" data-slot="1"></div>
+                <div class="slot" data-slot="2"></div>
+                <div class="slot" data-slot="3"></div>
+                <div class="slot" data-slot="4"></div>
+                <div class="slot" data-slot="5"></div>
+                <div class="slot" data-slot="6"></div>
+                <div class="slot" data-slot="7"></div>
+            </div>
+
+            <h3 id ="pecasGanhas">Peças Ganhas</h3>
+
+            <div id="pieces-container"></div>
+
+            <div id="winnerMessage"></div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="./app.js"></script>
+</body>
+
+</html>
